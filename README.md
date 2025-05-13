@@ -1,12 +1,15 @@
+# SVGMatrix
+This is a fork of DOMMatrix...
+
 # DOMMatrix
-[![Coverage Status](https://coveralls.io/repos/github/thednp/dommatrix/badge.svg)](https://coveralls.io/github/thednp/dommatrix) 
-[![NPM Version](https://img.shields.io/npm/v/@thednp/dommatrix.svg)](https://www.npmjs.com/package/@thednp/dommatrix)
-[![NPM Downloads](https://img.shields.io/npm/dm/@thednp/dommatrix.svg)](http://npm-stat.com/charts.html?@thednp/dommatrix)
-[![ci](https://github.com/thednp/dommatrix/actions/workflows/ci.yml/badge.svg)](https://github.com/thednp/dommatrix/actions/workflows/ci.yml)
-[![jsDeliver](https://data.jsdelivr.com/v1/package/npm/@thednp/dommatrix/badge)](https://www.jsdelivr.com/package/npm/@thednp/dommatrix)
-[![typescript version](https://img.shields.io/badge/typescript-5.7.2-brightgreen)](https://www.typescriptlang.org/)
-[![vitest version](https://img.shields.io/badge/vitest-2.1.8-brightgreen)](https://vitest.dev/)
-[![vite version](https://img.shields.io/badge/vite-5.4.11-brightgreen)](https://vitejs.dev/)
+[![Coverage Status](https://coveralls.io/repos/github/thednp/svgmatrix/badge.svg)](https://coveralls.io/github/thednp/svgmatrix) 
+[![NPM Version](https://img.shields.io/npm/v/@thednp/svgmatrix.svg)](https://www.npmjs.com/package/@thednp/svgmatrix)
+[![NPM Downloads](https://img.shields.io/npm/dm/@thednp/svgmatrix.svg)](http://npm-stat.com/charts.html?@thednp/svgmatrix)
+[![ci](https://github.com/thednp/svgmatrix/actions/workflows/ci.yml/badge.svg)](https://github.com/thednp/svgmatrix/actions/workflows/ci.yml)
+[![jsDeliver](https://data.jsdelivr.com/v1/package/npm/@thednp/svgmatrix/badge)](https://www.jsdelivr.com/package/npm/@thednp/svgmatrix)
+[![typescript version](https://img.shields.io/badge/typescript-5.8.3-brightgreen)](https://www.typescriptlang.org/)
+[![vitest version](https://img.shields.io/badge/vitest-2.1.9-brightgreen)](https://vitest.dev/)
+[![vite version](https://img.shields.io/badge/vite-5.4.19-brightgreen)](https://vitejs.dev/)
 
 A TypeScript sourced [DOMMatrix](https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix) shim for **Node.js** apps and legacy browsers. Since this source is modernized, legacy browsers might need some additional shims.
 
@@ -19,27 +22,27 @@ This library implements a full transform string parsing via the static method `.
 
 
 # Demo
-See DOMMatrix shim in action, [click me](https://thednp.github.io/dommatrix) and start transforming.
+See DOMMatrix shim in action, [click me](https://thednp.github.io/svgmatrix) and start transforming.
 
 
 # Installation
 ```js
-npm install @thednp/dommatrix
+npm install @thednp/svgmatrix
 ```
-Download the latest version and copy the `dist/dommatrix.js` file to your project assets folder, then load the file in your front-end:
+Download the latest version and copy the `dist/svgmatrix.js` file to your project assets folder, then load the file in your front-end:
 ```html
-<script src="./assets/js/dommatrix.js">
+<script src="./assets/js/svgmatrix.js">
 ```
 
 Alternativelly you can load from CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@thednp/dommatrix/dist/dommatrix.js">
+<script src="https://cdn.jsdelivr.net/npm/@thednp/svgmatrix/dist/svgmatrix.js">
 ```
 
 # Usage
 In your regular day to day usage, you will find yourself writing something like this:
 ```js
-import CSSMatrix from '@thednp/dommatrix';
+import CSSMatrix from '@thednp/svgmatrix';
 
 // init
 let myMatrix = new CSSMatrix('matrix(1,0.25,-0.25,1,0,0)');

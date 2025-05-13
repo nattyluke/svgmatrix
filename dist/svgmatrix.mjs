@@ -435,4 +435,4 @@ p(y, "Translate", Y), p(y, "Rotate", F), p(y, "RotateAxisAngle", T), p(y, "Scale
 export {
   y as default
 };
-//# sourceMappingURL=dommatrix.mjs.map
+//# sourceMappingURL=svgmatrix.mjs.map
