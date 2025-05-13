@@ -264,7 +264,7 @@ const fromString = (source: string): CSSMatrix => {
       ) {
         m = m.translate(x, y, z);
         // single/double number value(s) expected
-      } else if (prop === "translate" && x && z === undefined) {
+      } else if (prop === "translate" && z === undefined) {
         m = m.translate(x, y || 0, 0);
         // all 4 values expected
       } else if (
@@ -286,7 +286,7 @@ const fromString = (source: string): CSSMatrix => {
       } else if (
         // prop === "scale" && !Number.isNaN(x) && x !== 1 && z === undefined
         // prop === "scale" && !Number.isNaN(x) && [x, y].some((n) => n !== 1) &&
-        prop === "scale" && !Number.isNaN(x) && (x !== 1 || y !== 1) &&
+        prop === "scale" && !Number.isNaN(x) &&
         z === undefined
       ) {
         const nosy = Number.isNaN(+y);
