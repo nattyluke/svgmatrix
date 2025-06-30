@@ -2,14 +2,14 @@
 This is a fork of DOMMatrix...
 
 # DOMMatrix
-[![Coverage Status](https://coveralls.io/repos/github/thednp/svgmatrix/badge.svg)](https://coveralls.io/github/thednp/svgmatrix) 
-[![NPM Version](https://img.shields.io/npm/v/@thednp/svgmatrix.svg)](https://www.npmjs.com/package/@thednp/svgmatrix)
-[![NPM Downloads](https://img.shields.io/npm/dm/@thednp/svgmatrix.svg)](http://npm-stat.com/charts.html?@thednp/svgmatrix)
-[![ci](https://github.com/thednp/svgmatrix/actions/workflows/ci.yml/badge.svg)](https://github.com/thednp/svgmatrix/actions/workflows/ci.yml)
-[![jsDeliver](https://data.jsdelivr.com/v1/package/npm/@thednp/svgmatrix/badge)](https://www.jsdelivr.com/package/npm/@thednp/svgmatrix)
+[![Coverage Status](https://coveralls.io/repos/github/thednp/dommatrix/badge.svg)](https://coveralls.io/github/thednp/dommatrix) 
+[![NPM Version](https://img.shields.io/npm/v/@thednp/dommatrix.svg)](https://www.npmjs.com/package/@thednp/dommatrix)
+[![NPM Downloads](https://img.shields.io/npm/dm/@thednp/dommatrix.svg)](http://npm-stat.com/charts.html?@thednp/dommatrix)
+[![ci](https://github.com/thednp/dommatrix/actions/workflows/ci.yml/badge.svg)](https://github.com/thednp/dommatrix/actions/workflows/ci.yml)
+[![jsDeliver](https://data.jsdelivr.com/v1/package/npm/@thednp/dommatrix/badge)](https://www.jsdelivr.com/package/npm/@thednp/dommatrix)
 [![typescript version](https://img.shields.io/badge/typescript-5.8.3-brightgreen)](https://www.typescriptlang.org/)
-[![vitest version](https://img.shields.io/badge/vitest-2.1.9-brightgreen)](https://vitest.dev/)
-[![vite version](https://img.shields.io/badge/vite-5.4.19-brightgreen)](https://vitejs.dev/)
+[![vitest version](https://img.shields.io/badge/vitest-3.1.4-brightgreen)](https://vitest.dev/)
+[![vite version](https://img.shields.io/badge/vite-6.3.5-brightgreen)](https://vitejs.dev/)
 
 A TypeScript sourced [DOMMatrix](https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix) shim for **Node.js** apps and legacy browsers. Since this source is modernized, legacy browsers might need some additional shims.
 
